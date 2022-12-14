@@ -1,0 +1,5 @@
+- name: Create storage account
+  azure.azcollection.azure_rm_storageaccount:
+    resource_group: Testing
+    name: testaccount001
+    account_type: Standard_LRS
