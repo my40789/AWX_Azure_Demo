@@ -1,5 +1,5 @@
 - name: Create storage account
   azure.azcollection.azure_rm_storageaccount:
-    resource_group: Testing
-    name: testaccount001
+    resource_group: rg-codesparks-junsheng-poc-01
+    name: my40789awxazuredemo
     account_type: Standard_LRS
